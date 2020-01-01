@@ -4,6 +4,10 @@ import "fmt"
 
 func main() {
 	if true {
-		fmt.Println("Hello, playground")
+		fmt.Println("one")
+	}
+
+	if false {
+		fmt.Println("two")
 	}
 }

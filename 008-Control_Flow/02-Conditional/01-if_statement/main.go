@@ -35,7 +35,7 @@ func main() {
 		fmt.Println("008")
 	}
 
-	if x := 42; x == 2 {
+	if x := 42; x == 42 {
 		fmt.Println("009")
 	}
 	fmt.Println("here's a statement")

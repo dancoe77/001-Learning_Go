@@ -13,5 +13,13 @@ func main() {
 		fallthrough
 	case (4 == 4):
 		fmt.Println("also true, does it print?")
+	case (7 == 9):
+		fmt.Println("not true")
+		fallthrough
+	case (11 == 14):
+		fmt.Println("not true either")
+		fallthrough
+	case (15 == 15):
+		fmt.Println("true 15")
 	}
 }

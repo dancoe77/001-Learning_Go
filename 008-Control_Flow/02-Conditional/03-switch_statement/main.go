@@ -10,6 +10,7 @@ func main() {
 		fmt.Println("this should not printer either")
 	case (3 == 3):
 		fmt.Println("prints")
+		fallthrough
 	case (4 == 4):
 		fmt.Println("also true, does it print?")
 	}

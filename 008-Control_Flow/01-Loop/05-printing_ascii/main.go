@@ -8,7 +8,7 @@ func main() {
 		if x > 123 {
 			break
 		}
-		fmt.Printf("%d\t%u\n", x, x)
+		fmt.Printf("%d\t%#U\n", x, x)
 		x++
 	}
 	fmt.Println("done.")

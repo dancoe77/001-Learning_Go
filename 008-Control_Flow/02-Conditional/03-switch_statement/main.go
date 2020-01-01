@@ -27,11 +27,12 @@ func main() {
 		fmt.Println("this is default")
 	}
 
-	switch "Bond" {
-	case "Moneypenny":
-		fmt.Println("miss money")
-	case "Bond":
-		fmt.Println("mr bond")
+	n := "Bond"
+	switch n {
+	case "Moneypenny", "Bond", "Dr No":
+		fmt.Println("miss money or bond or dr no")
+	case "M":
+		fmt.Println("M")
 	case "Q":
 		fmt.Println("Q")
 	default:

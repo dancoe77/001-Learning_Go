@@ -34,4 +34,10 @@ func main() {
 	if !(2 != 2) {
 		fmt.Println("008")
 	}
+
+	if x := 42; x == 2 {
+		fmt.Println("009")
+	}
+	fmt.Println("here's a statement")
+	fmt.Println("something else")
 }

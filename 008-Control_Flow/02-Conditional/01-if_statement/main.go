@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 	if true {
-		fmt.Println("one")
+		fmt.Println("001")
 	}
 
 	if false {
-		fmt.Println("two")
+		fmt.Println("002")
 	}
 }

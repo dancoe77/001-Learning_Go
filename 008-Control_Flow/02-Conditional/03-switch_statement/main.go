@@ -39,4 +39,11 @@ func main() {
 		fmt.Println("this is default")
 	}
 
+	switch {
+	case false:
+		fmt.Println("should not print")
+	case true:
+		fmt.Println("should print")
+	}
+
 }

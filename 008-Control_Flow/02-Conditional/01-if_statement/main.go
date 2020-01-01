@@ -10,4 +10,12 @@ func main() {
 	if false {
 		fmt.Println("002")
 	}
+
+	if !true {
+		fmt.Println("003")
+	}
+
+	if !false {
+		fmt.Println("004")
+	}
 }

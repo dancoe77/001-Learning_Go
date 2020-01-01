@@ -13,6 +13,7 @@ func main() {
 		fallthrough
 	case (4 == 4):
 		fmt.Println("also true, does it print?")
+		fallthrough
 	case (7 == 9):
 		fmt.Println("not true")
 		fallthrough
@@ -21,5 +22,20 @@ func main() {
 		fallthrough
 	case (15 == 15):
 		fmt.Println("true 15")
+		fallthrough
+	default:
+		fmt.Println("this is default")
 	}
+
+	switch "Bond" {
+	case "Moneypenny":
+		fmt.Println("miss money")
+	case "Bond":
+		fmt.Println("mr bond")
+	case "Q":
+		fmt.Println("Q")
+	default:
+		fmt.Println("this is default")
+	}
+
 }

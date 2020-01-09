@@ -7,4 +7,5 @@ func main() {
 	fmt.Println(len(x))
 	fmt.Println(cap(x))
 	fmt.Println(x)
+	fmt.Println(x[0])
 }

@@ -14,4 +14,7 @@ func main() {
 
 	delete(m, "Ian Fleming")
 	fmt.Println(m)
+
+	fmt.Println(m["Miss Moneypenny"])
+	fmt.Println(m["Ian Fleming"])
 }

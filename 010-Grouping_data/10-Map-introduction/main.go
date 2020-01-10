@@ -10,4 +10,6 @@ func main() {
 	fmt.Println(m)
 
 	fmt.Println(m["James"])
+
+	fmt.Println(m["Barnabas"])
 }

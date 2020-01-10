@@ -17,7 +17,7 @@ func main() {
 	fmt.Println(v)
 	fmt.Println(ok)
 
-	if v, ok := m["Barnabas"]; ok {
+	if v, ok := m["Miss Moneypenny"]; ok {
 		fmt.Println("THIS IS THE IF PRINT", v)
 	}
 }

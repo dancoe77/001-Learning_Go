@@ -26,4 +26,10 @@ func main() {
 	for k, v := range m {
 		fmt.Println(k, v)
 	}
+
+	xi := []int{4, 5, 7, 8, 9, 42}
+
+	for i, v := range xi {
+		fmt.Println(i, v)
+	}
 }

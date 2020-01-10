@@ -9,5 +9,6 @@ func main() {
 	fmt.Println(mp)
 
 	xp := [][]string{jb, mp}
+	fmt.Println(xp)
 
 }

@@ -11,4 +11,7 @@ func main() {
 
 	delete(m, "James")
 	fmt.Println(m)
+
+	delete(m, "Ian Fleming")
+	fmt.Println(m)
 }

@@ -12,4 +12,8 @@ func main() {
 	fmt.Println(m["James"])
 
 	fmt.Println(m["Barnabas"])
+
+	v, ok := m["Barnabas"]
+	fmt.Println(v)
+	fmt.Println(m["Barnabas"])
 }

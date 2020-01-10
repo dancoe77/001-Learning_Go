@@ -8,4 +8,6 @@ func main() {
 		"Miss Moneypenny": 27,
 	}
 	fmt.Println(m)
+
+	fmt.Println(m["James"])
 }

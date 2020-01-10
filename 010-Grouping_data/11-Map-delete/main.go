@@ -17,4 +17,11 @@ func main() {
 
 	fmt.Println(m["Miss Moneypenny"])
 	fmt.Println(m["Ian Fleming"])
+
+	if v, ok := m["Miss Moneypenny"]; ok {
+		fmt.Println("value:", v)
+		delete(m, "Miss Moneypenny")
+	}
+
+	fmt.Println(m)
 }

@@ -18,6 +18,6 @@ func main() {
 		last:  "Moneypenny",
 	}
 
-	fmt.Println(p1)
-	fmt.Println(p2)
+	fmt.Println(p1.first, p1.last)
+	fmt.Println(p2.first, p2.last)
 }

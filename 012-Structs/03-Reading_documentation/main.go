@@ -9,6 +9,6 @@ func main() {
 	y = 43
 	fmt.Println(x, y)
 
-	x, y = y, x
+	x, y = 44, 45
 	fmt.Println(x, y)
 }

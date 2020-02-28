@@ -8,10 +8,13 @@ func main() {
 	mp := []string{"Miss", "Moneypenny", "Helloooooo, James."}
 	fmt.Println(mp)
 
-	for i, v := range jb {
-		fmt.Println(i, v)
-	}
-	for i, v := range mp {
-		fmt.Println(i, v)
+	jbmp := [][]string{jb, mp}
+	fmt.Println(jbmp)
+
+	for i, v := range jbmp {
+		fmt.Println("record: ", i)
+		for j, val := range v {
+			fmt.Printf("\t index position: %v \t value: \t %v \n", j, val)
+		}
 	}
 }

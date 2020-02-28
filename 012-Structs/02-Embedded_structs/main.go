@@ -10,7 +10,8 @@ type person struct {
 
 type secretAgent struct {
 	person
-	ltk bool
+	first string
+	ltk   bool
 }
 
 func main() {
@@ -20,7 +21,8 @@ func main() {
 			last:  "Bond",
 			age:   32,
 		},
-		ltk: true,
+		first: "something coll",
+		ltk:   true,
 	}
 
 	p2 := person{
@@ -32,6 +34,6 @@ func main() {
 	fmt.Println(sa1)
 	fmt.Println(p2)
 
-	fmt.Println(sa1.first, sa1.last, sa1.age, sa1.ltk)
+	fmt.Println(sa1.first, sa1.person.first, sa1.last, sa1.age, sa1.ltk)
 	fmt.Println(p2.first, p2.last, p2.age)
 }

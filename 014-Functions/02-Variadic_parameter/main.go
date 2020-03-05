@@ -6,8 +6,9 @@ func main() {
 	foo()
 }
 
-func foo() {
-	fmt.Println("Hello, playground")
+func foo(x ...int) {
+	fmt.Println(x)
+	fmt.Printf("%T\n", x)
 }
 
 // func (r receiver) identifier(parameter(s)) (return(s)) { code}

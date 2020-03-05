@@ -21,5 +21,5 @@ func bar(s string) {
 }
 
 func woo(st string) string {
-	return fmt.Sprint("Hello from woo,", st)
+	return fmt.Sprint("Hello from woo, ", st)
 }

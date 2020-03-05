@@ -28,7 +28,7 @@ func woo(st string) string {
 }
 
 func mouse(fn string, ln string) (string, bool) {
-	a := fmt.Sprint(fn, ln, `, says "Hello"`)
+	a := fmt.Sprint(fn, " ", ln, `, says "Hello"`)
 	b := false
 	return a, b
 

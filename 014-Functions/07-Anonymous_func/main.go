@@ -10,7 +10,7 @@ func main() {
 	}()
 
 	func(x int) {
-		fmt.Println("The meaning of life", 42)
+		fmt.Println("The meaning of life:", 42)
 	}(42)
 }
 

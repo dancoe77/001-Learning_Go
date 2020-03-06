@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	x := sum("james")
+	x := sum("james", 4, 5, 6)
 	fmt.Println("The total is", x)
 }
 

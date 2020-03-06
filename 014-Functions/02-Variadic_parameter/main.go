@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	foo()
+	foo(2, 3, 4, 5, 6, 7, 8, 9)
 }
 
 func foo(x ...int) {

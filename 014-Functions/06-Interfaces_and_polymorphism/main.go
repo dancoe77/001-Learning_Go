@@ -15,7 +15,11 @@ type secretAgent struct {
 // func (r receiver) identifier(parameters) (return(s)) { code}
 
 func (s secretAgent) speak() {
-	fmt.Println("I am", s.first, s.last)
+	fmt.Println("I am", s.first, s.last, " - the secretAgent speak")
+}
+
+func (p person) speak() {
+	fmt.Println("I am", p.first, p.last, " - the person speak")
 }
 
 // var x int
@@ -27,7 +31,7 @@ type human interface {
 }
 
 func bar(h human) {
-	fmt.Println("I called human")
+	fmt.Println("I was passed into bar", h)
 }
 
 func main() {
@@ -58,4 +62,9 @@ func main() {
 	sa2.speak()
 
 	fmt.Println(p1)
+
+	// This is polymorphism
+	bar(sa1)
+	bar(sa2)
+	bar(p1)
 }

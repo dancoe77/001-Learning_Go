@@ -34,6 +34,8 @@ func bar(h human) {
 	fmt.Println("I was passed into bar", h)
 }
 
+type hotdog int
+
 func main() {
 	//x := 42
 	sa1 := secretAgent{
@@ -67,4 +69,13 @@ func main() {
 	bar(sa1)
 	bar(sa2)
 	bar(p1)
+
+	// conversion
+	var x hotdog = 42
+	fmt.Println(x)
+	fmt.Printf("%T\n", x)
+	var y int
+	y = int(x)
+	fmt.Println(y)
+	fmt.Printf("%T\n", y)
 }

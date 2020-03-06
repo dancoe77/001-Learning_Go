@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	x := sum()
+	x := sum("james")
 	fmt.Println("The total is", x)
 }
 
-func sum(x ...int) int {
+func sum(s string, x ...int) int {
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)
 

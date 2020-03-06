@@ -26,6 +26,16 @@ func main() {
 		},
 		ltk: true,
 	}
+
+	sa2 := secretAgent{
+		person: person{
+			"Miss",
+			"Moneypenny",
+		},
+		ltk: true,
+	}
+
 	fmt.Println(sa1)
 	sa1.speak()
+	sa2.speak()
 }

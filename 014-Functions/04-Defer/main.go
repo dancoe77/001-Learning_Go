@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	foo()
+	defer foo()
 	bar()
 }
 

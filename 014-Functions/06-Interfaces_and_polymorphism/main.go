@@ -28,6 +28,7 @@ type human interface {
 
 func bar(h human) {
 	fmt.Println("I called human")
+}
 
 func main() {
 	//x := 42
@@ -47,7 +48,14 @@ func main() {
 		ltk: true,
 	}
 
+	p1 := person{
+		first: "Dr.",
+		last:  "Yes",
+	}
+
 	fmt.Println(sa1)
 	sa1.speak()
 	sa2.speak()
+
+	fmt.Println(p1)
 }

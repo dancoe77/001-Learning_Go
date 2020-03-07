@@ -9,6 +9,9 @@ func main() {
 	x := bar()
 
 	fmt.Printf("%T\n", x)
+
+	i := x()
+	fmt.Println(i)
 }
 
 func foo() string {

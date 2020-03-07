@@ -3,15 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	x := bar()
-
-	fmt.Printf("%T\n", x)
-
-	fmt.Println(x())
-}
-
-func foo() string {
-	return "Hello World"
+	fmt.Println(bar()())
 }
 
 func bar() func() int {

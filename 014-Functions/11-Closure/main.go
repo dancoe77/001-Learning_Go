@@ -6,6 +6,7 @@ var x int
 
 func main() {
 	fmt.Println(x)
+	x++
 	fmt.Println(x)
 	fmt.Println(x)
 }

@@ -3,19 +3,24 @@ package main
 import "fmt"
 
 func main() {
-	var x int
-	fmt.Println(x)
-	x++
+	a := incrementor()
+	b := incrementor()
+	fmt.Println(a())
+	fmt.Println(a())
+	fmt.Println(a())
+	fmt.Println(a())
+	fmt.Println("---")
+	fmt.Println(b())
+	fmt.Println(b())
+	fmt.Println(b())
+	fmt.Println(b())
 
-	{
-		y := 42
-		fmt.Println(y)
-	}
-
-	fmt.Println(x)
-	foo()
 }
 
-func foo() {
-	fmt.Println("Hello World")
+func incrementor() func() int {
+	var x int
+	return func() int {
+		x++
+		return x
+	}
 }

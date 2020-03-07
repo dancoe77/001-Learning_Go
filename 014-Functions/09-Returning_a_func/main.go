@@ -6,9 +6,7 @@ func main() {
 	s1 := foo()
 	fmt.Println(s1)
 
-	x := func() int {
-		return 451
-	}
+	x := bar()
 
 	fmt.Printf("%T\n", x)
 }

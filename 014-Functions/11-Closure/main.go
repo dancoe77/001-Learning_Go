@@ -2,9 +2,8 @@ package main
 
 import "fmt"
 
-var x int
-
 func main() {
+	var x int
 	fmt.Println(x)
 	x++
 	fmt.Println(x)
@@ -14,5 +13,4 @@ func main() {
 
 func foo() {
 	fmt.Println("Hello World")
-	x++
 }

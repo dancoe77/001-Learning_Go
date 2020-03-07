@@ -8,7 +8,6 @@ func main() {
 	x++
 	fmt.Println(x)
 	foo()
-	fmt.Println(x)
 }
 
 func foo() {

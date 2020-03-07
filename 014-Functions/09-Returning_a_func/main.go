@@ -3,9 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	s1 := foo()
-	fmt.Println(s1)
-
 	x := bar()
 
 	fmt.Printf("%T\n", x)
@@ -15,8 +12,7 @@ func main() {
 }
 
 func foo() string {
-	s := "Hello World"
-	return s
+	return "Hello World"
 }
 
 func bar() func() int {

@@ -8,7 +8,7 @@ func main() {
 	x++
 
 	{
-		y := 1
+		y := 42
 		fmt.Println(y)
 	}
 

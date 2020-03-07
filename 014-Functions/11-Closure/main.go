@@ -8,5 +8,11 @@ func main() {
 	fmt.Println(x)
 	x++
 	fmt.Println(x)
+	foo()
 	fmt.Println(x)
+}
+
+func foo() {
+	fmt.Println("Hello World")
+	x++
 }

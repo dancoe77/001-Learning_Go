@@ -3,16 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	foo(35)
-	bar("James Bond")
+	n := foo()
+	x, s := bar()
+	fmt.Println(n, x, s)
 }
 
-func foo(i int) {
-	fmt.Println("Hello from foo, ", i)
+func foo() int {
+	return 42
 }
 
-func bar(st string) (x int) {
-	a := fmt.Sprint(st, "is")
-	b := 42
-	fmt.Println(a, b)
+func bar() (int, string) {
+	return 1984, "Big Brother is watching"
 }

@@ -24,5 +24,6 @@ func main() {
 		radius: 5,
 	}
 
+	fmt.Printf("%T\n", &c)
 	info(&c)
 }

@@ -16,7 +16,7 @@ type shape interface {
 }
 
 func info(s shape) {
-	fmt.Println(s.area())
+	fmt.Println("area", s.area())
 }
 
 func main() {

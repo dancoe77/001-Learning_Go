@@ -13,4 +13,6 @@ func main() {
 	//var b int = &a {can't use *int as int}
 	var b *int = &a
 	fmt.Println(b)
+	fmt.Println(*b)
+	//b := &a
 }

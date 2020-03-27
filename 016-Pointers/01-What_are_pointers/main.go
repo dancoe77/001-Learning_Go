@@ -14,5 +14,6 @@ func main() {
 	var b *int = &a
 	fmt.Println(b)
 	fmt.Println(*b)
+	fmt.Println(*&a)
 	//b := &a
 }

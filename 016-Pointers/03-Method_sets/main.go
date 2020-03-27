@@ -7,7 +7,7 @@ type circle struct {
 	radius float64
 }
 
-func (c circle) area() float64 {
+func (c *circle) area() float64 {
 	return math.Pi * c.radius * c.radius
 }
 
@@ -24,5 +24,5 @@ func main() {
 		radius: 5,
 	}
 
-	info(c)
+	info(&c)
 }
